@@ -1,0 +1,4 @@
+---
+default: -p bdd -p html
+bdd: --format pretty # Mostrar a descrição da funcionalidede no terminal
+html: --format html --out=log/report.html
